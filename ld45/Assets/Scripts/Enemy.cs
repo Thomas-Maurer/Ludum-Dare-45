@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Pathfinding;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,24 +10,32 @@ public class Enemy : MonoBehaviour
     private BoxCollider2D boxCollider;
     private Rigidbody2D rb2D;
     private Transform target;
-    private CircleCollider2D aggroRange;
     private double speed;
+    private AIDestinationSetter aggroTarget;
+    private AIPath pathFindingConfig;
     public Transform Target { get => target; set => target = value; }
     public double Speed { get => speed; set => speed = value; }
+    public int Level { get => level; set => level = value; }
+    public AIDestinationSetter AggroTarget { get => aggroTarget; set => aggroTarget = value; }
+    public AIPath PathFindingConfig { get => pathFindingConfig; set => pathFindingConfig = value; }
 
     // Start is called before the first frame update
     void Start()
     {
         boxCollider = GetComponent<BoxCollider2D>();
         rb2D = GetComponent<Rigidbody2D>();
-        aggroRange = GetComponent<CircleCollider2D>();
-
 
         this.level = this.generateLevel();
         Debug.Log("level of Enemy is " + this.level);
         this.hp = this.generateHp();
         this.Speed = this.generateSpeed();
-        this.generateAggroRange();
+
+        Range range = GetComponentInChildren<Range>();
+        range.generateAggroRange();
+
+        aggroTarget = GetComponent<AIDestinationSetter>();
+        pathFindingConfig = GetComponent<AIPath>();
+        pathFindingConfig.maxSpeed = (float)generateSpeed();
     }
 
     // Update is called once per frame
@@ -37,7 +46,7 @@ public class Enemy : MonoBehaviour
     // Generate the level of the Enemy
     int generateLevel()
     {
-        return NumbersUtils.RandomNumber(1, 69);
+        return NumbersUtils.RandomNumber(50, 69);
     }
     //Generate HP by level.
     //Maths formula = level * 3
@@ -52,10 +61,4 @@ public class Enemy : MonoBehaviour
     {
         return this.level * 0.02;
     }
-
-    void generateAggroRange()
-    {
-        this.aggroRange.radius = (float) (this.level * 0.5);
-    }
-
 }
