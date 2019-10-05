@@ -1,0 +1,283 @@
+fileFormatVersion: 2
+guid: e255d8f2d0524dc439d24fe3ae06dd16
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3424473670811395073
+    second: DeplacementArrieretAileron1
+  - first:
+      213: -3830855650178754693
+    second: DeplacementArrieretAileron2
+  - first:
+      213: 2951733064556673068
+    second: DeplacementAvantAileron1
+  - first:
+      213: -8070902925367289265
+    second: DeplacementAvantAileron2
+  - first:
+      213: -498171256730381577
+    second: DeplacementDGAileron1
+  - first:
+      213: -1147596232889164076
+    second: DeplacementDGAileron2
+  - first:
+      213: -4313939918881007470
+    second: RequinAttaqueWater1
+  - first:
+      213: -2450098880623810624
+    second: RequinAttaqueWater2
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DeplacementArrieretAileron1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 53
+        width: 93
+        height: 172
+      alignment: 9
+      pivot: {x: 0.5591398, y: 0.55813956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 3424473670811395073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeplacementArrieretAileron2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 27
+        width: 88
+        height: 138
+      alignment: 9
+      pivot: {x: 0.375, y: 0.6884058}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -3830855650178754693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeplacementAvantAileron1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 165
+        width: 94
+        height: 169
+      alignment: 9
+      pivot: {x: 0.5, y: 0.46745563}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 2951733064556673068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeplacementAvantAileron2
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 2
+        width: 69
+        height: 163
+      alignment: 9
+      pivot: {x: 0.5217391, y: 0.5644172}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -8070902925367289265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeplacementDGAileron1
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 249
+        width: 140
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5642857, y: 0.48958334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -498171256730381577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeplacementDGAileron2
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 225
+        width: 135
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5407407, y: 0.39166668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -1147596232889164076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RequinAttaqueWater1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 334
+        width: 226
+        height: 178
+      alignment: 9
+      pivot: {x: 0.50884956, y: 0.48314607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -4313939918881007470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RequinAttaqueWater2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 345
+        width: 225
+        height: 167
+      alignment: 9
+      pivot: {x: 0.52, y: 0.497006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -2450098880623810624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
