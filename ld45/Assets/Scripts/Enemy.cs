@@ -46,7 +46,7 @@ public class Enemy : MonoBehaviour
     //Maths formula = level * 0.1
     double generateSpeed()
     {
-        return this.level * 0.1;
+        return this.level * 0.05;
     }
 
 }
