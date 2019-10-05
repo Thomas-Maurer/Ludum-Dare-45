@@ -76,6 +76,7 @@ GameObject:
   - component: {fileID: 6966456419783572986}
   - component: {fileID: 6966456419783572981}
   - component: {fileID: 4219610013996453047}
+  - component: {fileID: 639017176572562662}
   m_Layer: 0
   m_Name: Shark
   m_TagString: Untagged
@@ -90,14 +91,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6966456419783572978}
-  m_LocalRotation: {x: -0, y: -0, z: 0.36128604, w: -0.93245506}
-  m_LocalPosition: {x: 1.7758956, y: 0.099831104, z: 0.3651662}
-  m_LocalScale: {x: 0.18454769, y: 0.1821023, z: 0.163028}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0}
   m_Children:
   - {fileID: 6966456418989057185}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -42.358}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6966456419783572984
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -136,7 +137,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: 423be03ad2de8eb40a2eb71b87542ff9, type: 3}
+  m_Sprite: {fileID: -4313939918881007470, guid: 7225e8a60d0764745ad54733818156a8,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -204,7 +206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 2
-  radius: 2
+  radius: 0.68
   height: 0.01
   repathRate: 0.5
   canSearch: 1
@@ -216,7 +218,7 @@ MonoBehaviour:
     m_Bits: 4294967295
   centerOffsetCompatibility: NaN
   orientation: 1
-  enableRotation: 1
+  enableRotation: 0
   targetCompatibility: {fileID: 0}
   maxAcceleration: -2.5
   rotationSpeed: 360
@@ -253,3 +255,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42d09779ed13dcf4ebd56fe8aa9ef209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &639017176572562662
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6966456419783572978}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a182219518edfb24da83a0a3e7627ce1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
