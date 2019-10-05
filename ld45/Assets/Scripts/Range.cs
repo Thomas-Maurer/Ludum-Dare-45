@@ -5,17 +5,17 @@ using UnityEngine;
 public class Range : MonoBehaviour
 {
     public GameObject parent;
-    private Enemy enemy;
+    private EnemyCtrl enemy;
     private CircleCollider2D aggroRange;
 
     public void generateAggroRange()
     {
         Debug.Log("Create RangeAggro");
         parent = transform.parent.gameObject;
-        enemy = parent.GetComponent<Enemy>();
+        enemy = parent.GetComponent<EnemyCtrl>();
 
         aggroRange = GetComponent<CircleCollider2D>();
-        aggroRange.radius = (float)(enemy.Level * 0.5);
+        aggroRange.radius = (float)(enemy.Enemy.Level * 0.5);
         Debug.Log(aggroRange.radius);
 
     }
