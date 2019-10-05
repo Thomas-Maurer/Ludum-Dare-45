@@ -9,6 +9,7 @@ public class Enemy : MonoBehaviour
     private BoxCollider2D boxCollider;
     private Rigidbody2D rb2D;
     private Transform target;
+    private CircleCollider2D aggroRange;
     private double speed;
     public Transform Target { get => target; set => target = value; }
     public double Speed { get => speed; set => speed = value; }
@@ -18,11 +19,14 @@ public class Enemy : MonoBehaviour
     {
         boxCollider = GetComponent<BoxCollider2D>();
         rb2D = GetComponent<Rigidbody2D>();
-        
+        aggroRange = GetComponent<CircleCollider2D>();
+
+
         this.level = this.generateLevel();
-        Debug.Log("Hello: " + this.level);
+        Debug.Log("level of Enemy is " + this.level);
         this.hp = this.generateHp();
         this.Speed = this.generateSpeed();
+        this.generateAggroRange();
     }
 
     // Update is called once per frame
@@ -46,7 +50,12 @@ public class Enemy : MonoBehaviour
     //Maths formula = level * 0.1
     double generateSpeed()
     {
-        return this.level * 0.05;
+        return this.level * 0.02;
+    }
+
+    void generateAggroRange()
+    {
+        this.aggroRange.radius = (float) (this.level * 0.5);
     }
 
 }
