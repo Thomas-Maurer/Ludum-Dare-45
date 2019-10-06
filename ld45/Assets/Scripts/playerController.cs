@@ -26,35 +26,58 @@ public class playerController : MonoBehaviour
         manOWar,
     }
     public BoatLvl thisBoatLvl;
-
+    private Animator anim;
 
     void Start()
     {
         player = GetComponent<Rigidbody2D>();
         thisBoatLvl = BoatLvl.noBoat;
+        anim = GetComponent<Animator>();
     }
     void FixedUpdate()
     {
+        Vector2 heading;
+        Debug.Log(anim.GetBool("isMoving"));
         //movement
         if (Input.GetKey(KeyCode.Z))
         {
             player.velocity = Vector2.zero;
-            transform.Translate(new Vector2(0, moveSpeed) * Time.deltaTime*2);
+            heading = new Vector2(0, moveSpeed) * Time.deltaTime * 2;
+            transform.Translate(heading);
+            anim.SetBool("isMoving", true);
+            anim.SetFloat("xInput", heading.normalized.x);
+            anim.SetFloat("yInput", heading.normalized.y);
         }
-        if (Input.GetKey(KeyCode.Q))
+        else if (Input.GetKey(KeyCode.Q))
         {
             player.velocity = Vector2.zero;
-            transform.Translate(new Vector2(-moveSpeed, 0) * Time.deltaTime*2);
+            heading = new Vector2(-moveSpeed, 0) * Time.deltaTime * 2;
+            transform.Translate(heading);
+            anim.SetBool("isMoving", true);
+            anim.SetFloat("xInput", heading.normalized.x);
+            anim.SetFloat("yInput", heading.normalized.y);
         }
-        if (Input.GetKey(KeyCode.S))
+        else if (Input.GetKey(KeyCode.S))
         {
             player.velocity = Vector2.zero;
-            transform.Translate(new Vector2(0, -moveSpeed) * Time.deltaTime*2);
+            heading = new Vector2(0, -moveSpeed) * Time.deltaTime * 2;
+            transform.Translate(heading);
+            anim.SetBool("isMoving", true);
+            anim.SetFloat("xInput", heading.normalized.x);
+            anim.SetFloat("yInput", heading.normalized.y);
         }
-        if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.D))
         {
             player.velocity = Vector2.zero;
-            transform.Translate(new Vector2(moveSpeed, 0) * Time.deltaTime*2);
+            heading = new Vector2(moveSpeed, 0) * Time.deltaTime * 2;
+            transform.Translate(heading);
+            anim.SetBool("isMoving", true);
+            anim.SetFloat("xInput", heading.normalized.x);
+            anim.SetFloat("yInput", heading.normalized.y);
+
+        }else
+        {
+            anim.SetBool("isMoving", false);
         }
 
         //setActiveScene
@@ -107,6 +130,8 @@ public class playerController : MonoBehaviour
             }
             hasEvolved = true;
         }
+        
+
 
 
     }
