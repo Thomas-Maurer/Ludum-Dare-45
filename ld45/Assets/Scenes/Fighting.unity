@@ -132,6 +132,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2034228122946321996}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &118489037 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5319217506915200820, guid: b2b6b5c6190ab3543b672082dacc5ed5,
+    type: 3}
+  m_PrefabInstance: {fileID: 764616489629026538}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &154610684 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 364450385056760323, guid: e6640b29f53065d429c039bb8ae9d743,
@@ -156,6 +162,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1336045482741893010}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &383517077 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5885525716538209934, guid: 663364b3fb3b7bb4793ceff7c877e071,
+    type: 3}
+  m_PrefabInstance: {fileID: 5885525716986241034}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &465580793 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1290236595512530043, guid: d33bedcf963ff5b439742e0381097e45,
@@ -168,6 +180,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1290236595055355522}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &466266727 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8779928266455112593, guid: d89efcc0cf0de8b46848185c719d1422,
+    type: 3}
+  m_PrefabInstance: {fileID: 6562478356169602417}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &477877242 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9096255677182735309, guid: bee4640504d73de428497990babfb9fd,
@@ -179,6 +197,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9096255677182735308, guid: bee4640504d73de428497990babfb9fd,
     type: 3}
   m_PrefabInstance: {fileID: 9096255677388595255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &478593809 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7624116960450502306, guid: e5507de0cc3130f41a649d57984c6ee0,
+    type: 3}
+  m_PrefabInstance: {fileID: 7624116961536070349}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &508128312 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 339143728752227492, guid: 79da29af4207fb04ca0baed3ceb2af91,
+    type: 3}
+  m_PrefabInstance: {fileID: 339143728175654053}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &509006924 stripped
 GameObject:
@@ -284,6 +314,92 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7720643415347546548}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &636905726
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 636905728}
+  - component: {fileID: 636905727}
+  m_Layer: 0
+  m_Name: SpawnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &636905727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636905726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1f5eddca421c3a4187ad86573b1116d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerSpawns:
+  - {fileID: 83383799}
+  - {fileID: 1325014745}
+  - {fileID: 1003427623}
+  - {fileID: 465580793}
+  - {fileID: 509006924}
+  - {fileID: 477877242}
+  - {fileID: 1063423772}
+  EnemySpawns:
+  - {fileID: 1209508757}
+  - {fileID: 1363970019}
+  - {fileID: 610056239}
+  - {fileID: 345576968}
+  - {fileID: 1496461847}
+  - {fileID: 154610684}
+  DicesJ:
+  - {fileID: 687052321}
+  - {fileID: 466266727}
+  - {fileID: 1225349805}
+  - {fileID: 1717280310}
+  - {fileID: 118489037}
+  - {fileID: 1854111905}
+  DicesE:
+  - {fileID: 383517077}
+  - {fileID: 1788916677}
+  - {fileID: 478593809}
+  - {fileID: 508128312}
+  - {fileID: 1535725594}
+  - {fileID: 971083590}
+  diceResult: 0
+  diceSpawn: 0
+--- !u!4 &636905728
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636905726}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.4190028, y: 58.26789, z: -3.8886719}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &687052321 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1881163821535615009, guid: 934d81c0ec225ef439114ae8e6c65f95,
+    type: 3}
+  m_PrefabInstance: {fileID: 132245318324997827}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &971083590 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8103682891673648354, guid: c5e51818dc0cd044c993e38fa3fc6655,
+    type: 3}
+  m_PrefabInstance: {fileID: 8103682893108433692}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1003427623 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3059661849035265124, guid: bb0e11b8ae2e827449942274daeaf6ba,
@@ -320,6 +436,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 172180218594828039}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1225349805 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1487233138124284754, guid: 70e90ee6505cf524fa830bb009198dfd,
+    type: 3}
+  m_PrefabInstance: {fileID: 8574041324964210509}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1325014745 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3806729954244585443, guid: 63b866f50c997da419791ca5f498808b,
@@ -355,6 +477,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 641213587059710784, guid: e45854f9e3649984ca4800ad12fed494,
     type: 3}
   m_PrefabInstance: {fileID: 641213587983640920}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1535725594 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 994295790236682700, guid: 9ade87d10d56d804f9052891ef4fd6e5,
+    type: 3}
+  m_PrefabInstance: {fileID: 994295790906663522}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1693781292
 GameObject:
@@ -471,19 +599,24 @@ MonoBehaviour:
   dices: 0
   canThrow: 1
   enemyResult: 0
-  spawnPointPlayer1: {fileID: 83383799}
-  spawnPointPlayer2: {fileID: 1325014745}
-  spawnPointPlayer3: {fileID: 1003427623}
-  spawnPointPlayer4: {fileID: 465580793}
-  spawnPointPlayer5: {fileID: 509006924}
-  spawnPointPlayer6: {fileID: 477877242}
-  spawnPointPlayer7: {fileID: 1063423772}
-  spawnPointEnemy1: {fileID: 1209508757}
-  spawnPointEnemy2: {fileID: 1363970019}
-  spawnPointEnemy3: {fileID: 610056239}
-  spawnPointEnemy4: {fileID: 345576968}
-  spawnPointEnemy5: {fileID: 1496461847}
-  spawnPointEnemy6: {fileID: 154610684}
+--- !u!1 &1717280310 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3857065708973953863, guid: 41612680cb7f6514691030bd018ee11c,
+    type: 3}
+  m_PrefabInstance: {fileID: 3857065709409671086}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788916677 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8997778547090340241, guid: 9ce37e64773ade241847cbc43ad54315,
+    type: 3}
+  m_PrefabInstance: {fileID: 8997778548128381653}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1854111905 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9153390519316270746, guid: f60e8ab129ec640428e59c0dcd7b9757,
+    type: 3}
+  m_PrefabInstance: {fileID: 6776553042684634833}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &132245318324997827
 PrefabInstance:
   m_ObjectHideFlags: 0

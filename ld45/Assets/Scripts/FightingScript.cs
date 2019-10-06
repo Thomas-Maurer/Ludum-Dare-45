@@ -10,27 +10,7 @@ public class FightingScript : MonoBehaviour
     public int dices;
     public bool canThrow = true;
     public int enemyResult;
-    public GameObject spawnPointPlayer1;
-    public GameObject spawnPointPlayer2;
-    public GameObject spawnPointPlayer3;
-    public GameObject spawnPointPlayer4;
-    public GameObject spawnPointPlayer5;
-    public GameObject spawnPointPlayer6;
-    public GameObject spawnPointPlayer7;
-    public GameObject spawnPointEnemy1;
-    public GameObject spawnPointEnemy2;
-    public GameObject spawnPointEnemy3;
-    public GameObject spawnPointEnemy4;
-    public GameObject spawnPointEnemy5;
-    public GameObject spawnPointEnemy6;
-    public List<GameObject> enemySpawnList =new List<GameObject>();
-
-    private void Start()
-    {
-        //enemySpawnList= { spawnPointEnemy1,spawnPointEnemy2,spawnPointEnemy3};
-    }
-
-
+    public int i = 0;
 
 
     // Update is called once per frame
@@ -38,25 +18,28 @@ public class FightingScript : MonoBehaviour
     {
         /*if (gameObject.GetComponent<playerController>().health <= 0)
         {
+            
+        }
 
-        }*/
-
-        //vérifier que le script Enemy correspond et que la variable health aussi
-        /*if (gameObject.GetComponent<playerController>().opponent.GetComponent<Enemy>.health <= 0)
+        
+        if (gameObject.GetComponent<playerController>().opponent.GetComponent<Enemy>().Hp <= 0)
         {
-
+            gameObject.GetComponent<playerController>().coins += gameObject.GetComponent<playerController>().opponent.GetComponent<Enemy>().CoinRewarded;
         }*/
 
         if (Input.GetKey(KeyCode.Space) && canThrow)
         {
-            Debug.Log("dices");
+            
             dices=GameObject.Find("player").GetComponent<playerController>().dicesAmount;
             
 
             finalResult = 0;
-            for (int i = 0; i < dices; i++)
+            for ( i = 0; i < dices; i++)
             {
-                dicesResult = Random.Range(0, 6);
+                dicesResult = Random.Range(1, 6);
+                Debug.Log(dicesResult);
+                Debug.Log(i);
+                GameObject.Find("SpawnManager").GetComponent<diceSpawnManager>().diceRoller("player", dicesResult, i);
                 finalResult += dicesResult;
             }
             Debug.Log("playerResult :" + finalResult);
@@ -64,9 +47,10 @@ public class FightingScript : MonoBehaviour
 
 
             finalResult = 0;
-            for (int i = 0; i < dices; i++)
+            for ( i = 0; i < dices; i++)
             {
-                dicesResult = Random.Range(0, 6);
+                dicesResult = Random.Range(1, 6);
+                GameObject.Find("SpawnManager").GetComponent<diceSpawnManager>().diceRoller("enemy", dicesResult, i);
                 enemyResult += dicesResult;
             }
             Debug.Log("enemyResult :"+enemyResult);
@@ -74,18 +58,16 @@ public class FightingScript : MonoBehaviour
 
             if (finalResult>enemyResult)
             {
-                //GameObject.FindWithTag("player").GetComponent<playerController>().opponent.GetComponent<ScriptVie>().health-=GameObject.FindWithTag("player").GetComponent<playerController>().damage;
-
+                GameObject.Find("player").GetComponent<playerController>().opponent.GetComponent<EnemyCtrl>().Enemy.Hp -= GameObject.Find("player").GetComponent<playerController>().damage;
             }
             else if (finalResult < enemyResult)
             {
-                //GameObject.FindWithTag("player").GetComponent<playerController>().health-=GameObject.FindWithTag("player").GetComponent<playerController>().opponent.GetComponent<Enemy>().damage;
-
+                GameObject.Find("player").GetComponent<playerController>().health-= GameObject.Find("player").GetComponent<playerController>().opponent.GetComponent<EnemyCtrl>().Enemy.Damage;
             }
             else
             {
-                //GameObject.FindWithTag("player").GetComponent<playerController>().opponent.GetComponent<ScriptVie>().health-=GameObject.FindWithTag("player").GetComponent<playerController>().damage;
-                //GameObject.FindWithTag("player").GetComponent<playerController>().health-=GameObject.FindWithTag("player").GetComponent<playerController>().opponent.GetComponent<Enemy>().damage;
+                GameObject.Find("player").GetComponent<playerController>().opponent.GetComponent<EnemyCtrl>().Enemy.Hp -= GameObject.Find("player").GetComponent<playerController>().damage;
+                GameObject.Find("player").GetComponent<playerController>().health-=GameObject.Find("player").GetComponent<playerController>().opponent.GetComponent<EnemyCtrl>().Enemy.Damage;
 
             }
 
