@@ -6,7 +6,6 @@ public class Shark : Enemy
 {
     public Shark(): base ()
     {
-        Debug.Log("Create Shark");
         DiceNumber = 1;
     }
 
@@ -18,6 +17,6 @@ public class Shark : Enemy
 
     protected override double generateSpeed()
     {
-        return this.level * 0.04;
+        return this.level * 0.1;
     }
 }

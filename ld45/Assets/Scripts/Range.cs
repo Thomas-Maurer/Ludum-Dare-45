@@ -15,8 +15,6 @@ public class Range : MonoBehaviour
 
         aggroRange = GetComponent<CircleCollider2D>();
         aggroRange.radius = (float)(enemy.Enemy.Level * 0.5);
-        Debug.Log(aggroRange.radius);
-
     }
 
     //When the range is trigger the enemy should go toward the target
