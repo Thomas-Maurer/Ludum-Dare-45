@@ -8,11 +8,13 @@ public class Enemy
     protected double speed;
     private int coinRewarded;
     private int damage;
+    private int diceNumber;
     public double Speed { get => speed; set => speed = value; }
     public int Level { get => level; set => level = value; }
     public int CoinRewarded { get => coinRewarded; set => coinRewarded = value; }
     public int Damage { get => damage; set => damage = value; }
     public int Hp { get => hp; set => hp = value; }
+    public int DiceNumber { get => diceNumber; set => diceNumber = value; }
 
     public Enemy()
 	{

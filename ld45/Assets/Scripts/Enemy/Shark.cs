@@ -7,6 +7,7 @@ public class Shark : Enemy
     public Shark(): base ()
     {
         Debug.Log("Create Shark");
+        DiceNumber = 1;
     }
 
     // Generate the level of the Enemy
