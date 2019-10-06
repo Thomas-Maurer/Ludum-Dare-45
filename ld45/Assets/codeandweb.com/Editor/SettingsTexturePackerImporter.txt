@@ -1,0 +1,36 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Ennemis/shark.tpsheet
+- Assets/map/map1.1.tpsheet
+- Assets/map/map1.tpsheet
+- Assets/map/map2.tpsheet
+- Assets/map/map3.tpsheet
+- Assets/map/map4.tpsheet
+- Assets/map/map5.tpsheet
+- Assets/map/map6.tpsheet
+- Assets/map/map7.tpsheet
+textureFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Ennemis/shark.png
+- Assets/map/map1.1.png
+- Assets/map/map1.png
+- Assets/map/map2.png
+- Assets/map/map3.png
+- Assets/map/map4.png
+- Assets/map/map5.png
+- Assets/map/map6.png
+- Assets/map/map7.png
+normalmapFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+enableDebugOutput: 0

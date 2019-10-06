@@ -1,0 +1,27 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:f4d68119ddd67f399946152f1fc9580a:cde25d847b530ec501cded3c5fbc3db3:c80c71955114541040cd6d8ccb0ff1ee$
+#
+:format=40300
+:texture=shark.png
+:size=1024x1024
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+DeplacementArrieretAileron1;1;831;256;192; 0.5;0.5; 0;0;0;0
+DeplacementArrieretAileron2;259;831;256;192; 0.5;0.5; 0;0;0;0
+DeplacementAvantAileron1;517;831;256;192; 0.5;0.5; 0;0;0;0
+DeplacementAvantAileron2;1;637;256;192; 0.5;0.5; 0;0;0;0
+DeplacementDAileron1;259;637;256;192; 0.5;0.5; 0;0;0;0
+DeplacementDAileron2;517;637;256;192; 0.5;0.5; 0;0;0;0
+DeplacementDGAileron1;1;443;256;192; 0.5;0.5; 0;0;0;0
+DeplacementDGAileron2;259;443;256;192; 0.5;0.5; 0;0;0;0
+RequinAttaqueDroiteWater1;517;443;256;192; 0.5;0.5; 0;0;0;0
+RequinAttaqueDWater2;1;249;256;192; 0.5;0.5; 0;0;0;0
+RequinAttaqueWater1;259;249;256;192; 0.5;0.5; 0;0;0;0
+RequinAttaqueWater2;517;249;256;192; 0.5;0.5; 0;0;0;0
