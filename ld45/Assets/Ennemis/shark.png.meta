@@ -26,6 +26,18 @@ TextureImporter:
   - first:
       213: -2450098880623810624
     second: RequinAttaqueWater2
+  - first:
+      213: 8560427556653406108
+    second: DeplacementDAileron1
+  - first:
+      213: -7686721266929039075
+    second: DeplacementDAileron2
+  - first:
+      213: -5181351090318868736
+    second: RequinAttaqueDroiteWater1
+  - first:
+      213: -570520550149907890
+    second: RequinAttaqueDWater2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -66,7 +78,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -101,12 +113,12 @@ TextureImporter:
       name: DeplacementArrieretAileron1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 53
-        width: 93
-        height: 172
-      alignment: 9
-      pivot: {x: 0.5591398, y: 0.55813956}
+        x: 1
+        y: 831
+        width: 256
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -122,12 +134,12 @@ TextureImporter:
       name: DeplacementArrieretAileron2
       rect:
         serializedVersion: 2
-        x: 162
-        y: 27
-        width: 88
-        height: 138
-      alignment: 9
-      pivot: {x: 0.375, y: 0.6884058}
+        x: 259
+        y: 831
+        width: 256
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -143,12 +155,12 @@ TextureImporter:
       name: DeplacementAvantAileron1
       rect:
         serializedVersion: 2
-        x: 93
-        y: 165
-        width: 94
-        height: 169
-      alignment: 9
-      pivot: {x: 0.5, y: 0.46745563}
+        x: 517
+        y: 831
+        width: 256
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -164,12 +176,12 @@ TextureImporter:
       name: DeplacementAvantAileron2
       rect:
         serializedVersion: 2
-        x: 93
-        y: 2
-        width: 69
-        height: 163
-      alignment: 9
-      pivot: {x: 0.5217391, y: 0.5644172}
+        x: 1
+        y: 637
+        width: 256
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -182,15 +194,57 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: DeplacementDAileron1
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 637
+        width: 256
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 8560427556653406108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeplacementDAileron2
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 637
+        width: 256
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -7686721266929039075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: DeplacementDGAileron1
       rect:
         serializedVersion: 2
-        x: 226
-        y: 249
-        width: 140
-        height: 96
-      alignment: 9
-      pivot: {x: 0.5642857, y: 0.48958334}
+        x: 1
+        y: 443
+        width: 256
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -206,12 +260,12 @@ TextureImporter:
       name: DeplacementDGAileron2
       rect:
         serializedVersion: 2
-        x: 366
-        y: 225
-        width: 135
-        height: 120
-      alignment: 9
-      pivot: {x: 0.5407407, y: 0.39166668}
+        x: 259
+        y: 443
+        width: 256
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -224,15 +278,57 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: RequinAttaqueDroiteWater1
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 443
+        width: 256
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -5181351090318868736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RequinAttaqueDWater2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 249
+        width: 256
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -570520550149907890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: RequinAttaqueWater1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 334
-        width: 226
-        height: 178
-      alignment: 9
-      pivot: {x: 0.50884956, y: 0.48314607}
+        x: 259
+        y: 249
+        width: 256
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -248,12 +344,12 @@ TextureImporter:
       name: RequinAttaqueWater2
       rect:
         serializedVersion: 2
-        x: 226
-        y: 345
-        width: 225
-        height: 167
-      alignment: 9
-      pivot: {x: 0.52, y: 0.497006}
+        x: 517
+        y: 249
+        width: 256
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
