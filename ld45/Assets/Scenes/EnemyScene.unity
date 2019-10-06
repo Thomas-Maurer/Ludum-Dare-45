@@ -1549,25 +1549,13 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!1001 &458989280
+--- !u!1001 &241327631
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 0}
-      propertyPath: m_Offset.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Offset.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Radius
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6966456419783572978, guid: 86be73325a6e8544f9fc19f0277963f6,
         type: 3}
       propertyPath: m_Name
@@ -1576,12 +1564,12 @@ PrefabInstance:
     - target: {fileID: 6966456419783572985, guid: 86be73325a6e8544f9fc19f0277963f6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.987519
+      value: -13.96261
       objectReference: {fileID: 0}
     - target: {fileID: 6966456419783572985, guid: 86be73325a6e8544f9fc19f0277963f6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.6676974
+      value: 12.014832
       objectReference: {fileID: 0}
     - target: {fileID: 6966456419783572985, guid: 86be73325a6e8544f9fc19f0277963f6,
         type: 3}

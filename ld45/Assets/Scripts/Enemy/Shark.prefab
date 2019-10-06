@@ -76,7 +76,7 @@ GameObject:
   - component: {fileID: 6966456419783572986}
   - component: {fileID: 6966456419783572981}
   - component: {fileID: 4219610013996453047}
-  - component: {fileID: 639017176572562662}
+  - component: {fileID: 3556022417184028510}
   m_Layer: 0
   m_Name: Shark
   m_TagString: Untagged
@@ -137,13 +137,13 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: -4313939918881007470, guid: 7225e8a60d0764745ad54733818156a8,
+  m_Sprite: {fileID: 3424473670811395073, guid: e255d8f2d0524dc439d24fe3ae06dd16,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5, y: 5}
+  m_Size: {x: 0.93, y: 1.72}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -255,7 +255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42d09779ed13dcf4ebd56fe8aa9ef209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!95 &639017176572562662
+--- !u!95 &3556022417184028510
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0

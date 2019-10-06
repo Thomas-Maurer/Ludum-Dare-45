@@ -26,6 +26,12 @@ TextureImporter:
   - first:
       213: -2450098880623810624
     second: RequinAttaqueWater2
+  - first:
+      213: 8560427556653406108
+    second: DeplacementDAileron1
+  - first:
+      213: -7686721266929039075
+    second: DeplacementDAileron2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -101,8 +107,8 @@ TextureImporter:
       name: DeplacementArrieretAileron1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 53
+        x: 162
+        y: 339
         width: 93
         height: 172
       alignment: 9
@@ -113,7 +119,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 
-      internalID: 3424473670811395073
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -122,8 +128,8 @@ TextureImporter:
       name: DeplacementArrieretAileron2
       rect:
         serializedVersion: 2
-        x: 162
-        y: 27
+        x: 72
+        y: 373
         width: 88
         height: 138
       alignment: 9
@@ -134,7 +140,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 
-      internalID: -3830855650178754693
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -143,8 +149,8 @@ TextureImporter:
       name: DeplacementAvantAileron1
       rect:
         serializedVersion: 2
-        x: 93
-        y: 165
+        x: 257
+        y: 342
         width: 94
         height: 169
       alignment: 9
@@ -155,7 +161,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 
-      internalID: 2951733064556673068
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -164,8 +170,8 @@ TextureImporter:
       name: DeplacementAvantAileron2
       rect:
         serializedVersion: 2
-        x: 93
-        y: 2
+        x: 1
+        y: 348
         width: 69
         height: 163
       alignment: 9
@@ -176,7 +182,49 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 
-      internalID: -8070902925367289265
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeplacementDAileron1
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 240
+        width: 142
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5915493, y: 0.5051546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeplacementDAileron2
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 391
+        width: 128
+        height: 120
+      alignment: 9
+      pivot: {x: 0.546875, y: 0.39166668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -185,8 +233,8 @@ TextureImporter:
       name: DeplacementDGAileron1
       rect:
         serializedVersion: 2
-        x: 226
-        y: 249
+        x: 138
+        y: 241
         width: 140
         height: 96
       alignment: 9
@@ -197,7 +245,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 
-      internalID: -498171256730381577
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -206,8 +254,8 @@ TextureImporter:
       name: DeplacementDGAileron2
       rect:
         serializedVersion: 2
-        x: 366
-        y: 225
+        x: 1
+        y: 217
         width: 135
         height: 120
       alignment: 9
@@ -218,7 +266,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 
-      internalID: -1147596232889164076
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -227,8 +275,8 @@ TextureImporter:
       name: RequinAttaqueWater1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 334
+        x: 228
+        y: 37
         width: 226
         height: 178
       alignment: 9
@@ -239,7 +287,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 
-      internalID: -4313939918881007470
+      internalID: 0
       vertices: []
       indices: 
       edges: []
@@ -248,8 +296,8 @@ TextureImporter:
       name: RequinAttaqueWater2
       rect:
         serializedVersion: 2
-        x: 226
-        y: 345
+        x: 1
+        y: 48
         width: 225
         height: 167
       alignment: 9
@@ -260,7 +308,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 
-      internalID: -2450098880623810624
+      internalID: 0
       vertices: []
       indices: 
       edges: []
