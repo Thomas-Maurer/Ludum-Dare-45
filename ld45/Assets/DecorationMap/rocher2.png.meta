@@ -1,0 +1,451 @@
+fileFormatVersion: 2
+guid: 9015c45174caf614aa2825a8f7a35257
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4322907602087710216
+    second: rocher6
+  - first:
+      213: -3774677691277459212
+    second: rocher6eau1
+  - first:
+      213: 189538590373781617
+    second: rocher6eau2
+  - first:
+      213: 2930258088672195548
+    second: rocher7
+  - first:
+      213: -7864222970772065939
+    second: rocher7eau1
+  - first:
+      213: 759202038967614568
+    second: rocher7eau2
+  - first:
+      213: -7448799722028541477
+    second: rocher8
+  - first:
+      213: 4963027300094656040
+    second: rocher8eau1
+  - first:
+      213: 1963999331004411694
+    second: rocher8eau2
+  - first:
+      213: -7707408566239914112
+    second: rocher9
+  - first:
+      213: 6315009649838326229
+    second: rocher9eau1
+  - first:
+      213: 7218350333161944942
+    second: rocher9eau2
+  - first:
+      213: -9028972997605156712
+    second: rocher10
+  - first:
+      213: -2810187527193448100
+    second: rocher10eau1
+  - first:
+      213: -2919832363742109794
+    second: rocher10eau2
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rocher6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1745
+        width: 407
+        height: 302
+      alignment: 9
+      pivot: {x: 0.41769043, y: 0.6490066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 4322907602087710216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher6eau1
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1685
+        width: 478
+        height: 362
+      alignment: 9
+      pivot: {x: 0.4832636, y: 0.66574585}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -3774677691277459212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher6eau2
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1681
+        width: 461
+        height: 366
+      alignment: 9
+      pivot: {x: 0.54013014, y: 0.6612022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 189538590373781617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher7
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1239
+        width: 410
+        height: 440
+      alignment: 9
+      pivot: {x: 0.44878048, y: 0.51363635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 2930258088672195548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher7eau1
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 274
+        width: 432
+        height: 485
+      alignment: 9
+      pivot: {x: 0.47916666, y: 0.5154639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -7864222970772065939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher7eau2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 280
+        width: 432
+        height: 479
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.5093946}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 759202038967614568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher8
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 781
+        width: 358
+        height: 456
+      alignment: 9
+      pivot: {x: 0.5949721, y: 0.5285088}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -7448799722028541477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher8eau1
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 761
+        width: 472
+        height: 476
+      alignment: 9
+      pivot: {x: 0.4766949, y: 0.4789916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 4963027300094656040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher8eau2
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 269
+        width: 461
+        height: 490
+      alignment: 9
+      pivot: {x: 0.54013014, y: 0.49387756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 1963999331004411694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher9
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1726
+        width: 362
+        height: 321
+      alignment: 9
+      pivot: {x: 0.4834254, y: 0.5825545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -7707408566239914112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher9eau1
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1278
+        width: 493
+        height: 401
+      alignment: 9
+      pivot: {x: 0.4929006, y: 0.61845386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 6315009649838326229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher9eau2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1302
+        width: 479
+        height: 377
+      alignment: 9
+      pivot: {x: 0.5073069, y: 0.59416443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 7218350333161944942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher10
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 1261
+        width: 429
+        height: 418
+      alignment: 9
+      pivot: {x: 0.47319347, y: 0.5382775}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -9028972997605156712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher10eau1
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 766
+        width: 487
+        height: 471
+      alignment: 9
+      pivot: {x: 0.49691993, y: 0.52653927}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -2810187527193448100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher10eau2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 790
+        width: 473
+        height: 447
+      alignment: 9
+      pivot: {x: 0.50317127, y: 0.50111854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -2919832363742109794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

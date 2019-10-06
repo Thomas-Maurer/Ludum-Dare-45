@@ -1,0 +1,30 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:b6029b2604e6f6b69aa767a233a51f25:4d869f46b7de11865e77ec639276fad9:971b6e6d049bc109e99a85b0318f8c87$
+#
+:format=40300
+:texture=rocher1.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+rocher;0;1548;500;500; 0.5;0.5; 0;0;0;0
+rocher1eau1;500;1548;500;500; 0.5;0.5; 0;0;0;0
+rocher1eau2;1000;1548;500;500; 0.5;0.5; 0;0;0;0
+rocher2;1500;1548;500;500; 0.5;0.5; 0;0;0;0
+rocher2eau1;0;1048;500;500; 0.5;0.5; 0;0;0;0
+rocher2eau2;500;1048;500;500; 0.5;0.5; 0;0;0;0
+rocher3;1000;1048;500;500; 0.5;0.5; 0;0;0;0
+rocher3eau1;1500;1048;500;500; 0.5;0.5; 0;0;0;0
+rocher3eau2;0;548;500;500; 0.5;0.5; 0;0;0;0
+rocher4;500;548;500;500; 0.5;0.5; 0;0;0;0
+rocher4eau1;1000;548;500;500; 0.5;0.5; 0;0;0;0
+rocher4eau2;1500;548;500;500; 0.5;0.5; 0;0;0;0
+rocher5;0;48;500;500; 0.5;0.5; 0;0;0;0
+rocher5eau1;500;48;500;500; 0.5;0.5; 0;0;0;0
+rocher5eau2;1000;48;500;500; 0.5;0.5; 0;0;0;0
