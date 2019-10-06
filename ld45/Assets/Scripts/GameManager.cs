@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
                 case "Shark":
                     GameObject enemyObject = Instantiate(go, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
                     EnemyCtrl ctrl = enemyObject.GetComponent<EnemyCtrl>();
-                    Shark shark = new Shark();
+                    Boat1 shark = new Boat1();
                     ctrl.init(shark);
                     break;
                 default:

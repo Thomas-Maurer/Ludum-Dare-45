@@ -2,21 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Shark : Enemy
+public class Boat2 : Enemy
 {
-    public Shark(): base ()
+    public Boat2(): base ()
     {
-        DiceNumber = 1;
+        DiceNumber = 3;
     }
 
     // Generate the level of the Enemy
     protected override int generateLevel()
     {
-        return NumbersUtils.RandomNumber(1, 10);
+        return NumbersUtils.RandomNumber(20, 30);
     }
 
     protected override double generateSpeed()
     {
-        return this.level * 0.04;
+        return this.level * 0.12;
     }
 }
