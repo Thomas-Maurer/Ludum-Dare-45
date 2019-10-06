@@ -11,6 +11,7 @@ tpsheetFileNames:
 - Assets/map/map5.tpsheet
 - Assets/map/map6.tpsheet
 - Assets/map/map7.tpsheet
+- Assets/Perso/perso.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 - Assets/Ennemis/shark.png
@@ -22,8 +23,10 @@ textureFileNames:
 - Assets/map/map5.png
 - Assets/map/map6.png
 - Assets/map/map7.png
+- Assets/Perso/perso.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
 - 
 - 
 - 
