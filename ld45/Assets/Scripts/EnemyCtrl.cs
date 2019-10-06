@@ -58,7 +58,7 @@ public class EnemyCtrl : MonoBehaviour
             anim.SetFloat("yInput", heading.y);
             float distance = Vector2.Distance(aggroTarget.target.transform.position, transform.position);
             //Attack Range
-            if (distance < 0.5)
+            if (distance < 1)
             {
                 anim.SetBool("followTarget", false);
                 anim.SetBool("isAttacking", true);
