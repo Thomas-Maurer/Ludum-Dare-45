@@ -12,21 +12,15 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        GameObject SharkObject = EnemiesPrefab[0];
+        var test = transform.Find("SpawnSharkList");
 
-        foreach(GameObject go in EnemiesPrefab)
+        foreach (Transform child in test)
         {
-            switch(go.name)
-            {
-                case "Shark":
-                    GameObject enemyObject = Instantiate(go, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
-                    EnemyCtrl ctrl = enemyObject.GetComponent<EnemyCtrl>();
-                    Boat1 shark = new Boat1();
-                    ctrl.init(shark);
-                    break;
-                default:
-                    Debug.Log(go.name);
-                    break;
-            }
+            GameObject enemyObject = Instantiate(SharkObject, new Vector2(child.position.x, child.position.y), Quaternion.identity);
+            EnemyCtrl ctrl = enemyObject.GetComponent<EnemyCtrl>();
+            Shark shark = new Shark();
+            ctrl.init(shark);
         }
     }
 
