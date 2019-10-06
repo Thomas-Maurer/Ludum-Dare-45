@@ -6,13 +6,13 @@ using UnityEngine.SceneManagement;
 public class playerController : MonoBehaviour
 {
 
-    public int moveSpeed = 10;
+    public int moveSpeed = 1;
     public int health = 100;
     public int damage = 5;
     public int coins = 100;
     public int dicesAmount = 1;
     public bool isFighting = false;
-    Rigidbody player;
+    Rigidbody2D player;
     public bool hasEvolved = true;
     //public bool isHalfLvl = false;
     public GameObject opponent;
@@ -30,7 +30,7 @@ public class playerController : MonoBehaviour
 
     void Start()
     {
-        player = GetComponent<Rigidbody>();
+        player = GetComponent<Rigidbody2D>();
         thisBoatLvl = BoatLvl.noBoat;
     }
     void FixedUpdate()
@@ -110,24 +110,28 @@ public class playerController : MonoBehaviour
 
 
     }
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollision2DEnter(Collision2D collision)
     {
+        Debug.Log(collision.gameObject.tag);
+
         if (collision.gameObject.tag == "enemy")
         {
             opponent = collision.gameObject;
             SceneManager.LoadScene("fighting", mode: LoadSceneMode.Additive);
             GameObject.Find("Main Camera").GetComponent<AudioListener>().enabled = false;
         }
-        else if (collision.gameObject.tag == "island" && coins>=200)
+        else if (collision.gameObject.tag == "island" /*&& coins>=200*/)
         {
-            coins -= 200;
+            /*coins -= 200;
             thisBoatLvl ++;
-            hasEvolved = false;
+            hasEvolved = false;*/
+            
         }
         else if (collision.gameObject.tag == "bonus")
         {
 
         }
+        Debug.Log(collision.gameObject.tag);
     }
 
 }
