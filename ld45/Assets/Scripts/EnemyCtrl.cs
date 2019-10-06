@@ -10,6 +10,7 @@ public class EnemyCtrl : MonoBehaviour
     private Transform target;
 
     private AIDestinationSetter aggroTarget;
+    private Animator anim;
     private AIPath pathFindingConfig;
     private Vector2 direction;
 
@@ -36,6 +37,7 @@ public class EnemyCtrl : MonoBehaviour
         range.generateAggroRange();
 
         aggroTarget = GetComponent<AIDestinationSetter>();
+        anim = GetComponent<Animator>();
 
 
     }
@@ -48,7 +50,15 @@ public class EnemyCtrl : MonoBehaviour
 
     void checkDirection()
     {
-        var heading = (aggroTarget.target.transform.position - transform.position).normalized;
-        Debug.Log(heading.sqrMagnitude);
+        if(aggroTarget.target != null && !anim.GetBool("followTarget"))
+        {
+            anim.SetBool("followTarget",true);
+        }
+
+        Vector2 heading = (aggroTarget.target.transform.position - transform.position).normalized;
+        anim.SetFloat("xInput", heading.x);
+        anim.SetFloat("yInput", heading.y);
+        
+        
     }
 }
