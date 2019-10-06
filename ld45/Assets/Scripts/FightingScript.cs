@@ -32,7 +32,6 @@ public class FightingScript : MonoBehaviour
             }
             Debug.Log("playerResult :" + finalResult);
 
-            //dices = GameObject.FindWithTag("enemy").GetComponent<playerController>().opponent.GetComponent<>;
 
 
             finalResult = 0;
@@ -44,10 +43,16 @@ public class FightingScript : MonoBehaviour
             Debug.Log("enemyResult :"+enemyResult);
             canThrow = false;
 
-            /*if (finalResult)
+            if (finalResult>enemyResult)
             {
+                //GameObject.FindWithTag("player").GetComponent<playerController>().opponent.GetComponent<ScriptVie>().health-=GameObject.FindWithTag("player").GetComponent<playerController>().damage;
 
-            }*/
+            }
+            else if (finalResult < enemyResult)
+            {
+                //GameObject.FindWithTag("player").GetComponent<playerController>().opponent.GetComponent<ScriptVie>().health-=GameObject.FindWithTag("player").GetComponent<playerController>().damage;
+
+            }
 
         }
     }
