@@ -17,6 +17,6 @@ public class Boat3 : Enemy
 
     protected override double generateSpeed()
     {
-        return this.level * 0.16;
+        return this.level * 1.6;
     }
 }

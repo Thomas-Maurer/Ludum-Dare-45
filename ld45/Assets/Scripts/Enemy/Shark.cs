@@ -17,6 +17,6 @@ public class Shark : Enemy
 
     protected override double generateSpeed()
     {
-        return this.level * 0.04;
+        return this.level * 0.4;
     }
 }
