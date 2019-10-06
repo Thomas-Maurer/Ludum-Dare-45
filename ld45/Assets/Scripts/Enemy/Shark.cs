@@ -12,7 +12,7 @@ public class Shark : Enemy
     // Generate the level of the Enemy
     protected override int generateLevel()
     {
-        return NumbersUtils.RandomNumber(5, 15);
+        return NumbersUtils.RandomNumber(3, 10);
     }
 
     protected override double generateSpeed()

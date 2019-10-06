@@ -10,12 +10,11 @@ public class Range : MonoBehaviour
 
     public void generateAggroRange()
     {
-        Debug.Log("Create RangeAggro");
         parent = transform.parent.gameObject;
         enemy = parent.GetComponent<EnemyCtrl>();
 
         aggroRange = GetComponent<CircleCollider2D>();
-        aggroRange.radius = (float)(enemy.Enemy.Level * 2);
+        aggroRange.radius = (float)(enemy.Enemy.Level * 0.5);
         Debug.Log(aggroRange.radius);
 
     }
@@ -28,5 +27,12 @@ public class Range : MonoBehaviour
             Debug.Log("Player detected ");
             enemy.AggroTarget.target = collision.transform;
         }
+    }
+
+    //When the range is trigger the enemy should go toward the target
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        Debug.Log("Player leave aggro range");
+        enemy.AggroTarget.target = null;
     }
 }

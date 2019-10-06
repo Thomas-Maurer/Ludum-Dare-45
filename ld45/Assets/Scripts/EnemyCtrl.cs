@@ -50,15 +50,19 @@ public class EnemyCtrl : MonoBehaviour
 
     void checkDirection()
     {
-        if(aggroTarget.target != null && !anim.GetBool("followTarget"))
+        if(aggroTarget.target != null)
         {
             anim.SetBool("followTarget",true);
-        }
-
-        Vector2 heading = (aggroTarget.target.transform.position - transform.position).normalized;
-        anim.SetFloat("xInput", heading.x);
-        anim.SetFloat("yInput", heading.y);
-        
-        
+            Vector2 heading = (aggroTarget.target.transform.position - transform.position).normalized;
+            anim.SetFloat("xInput", heading.x);
+            anim.SetFloat("yInput", heading.y);
+            float distance = Vector2.Distance(aggroTarget.target.transform.position, transform.position);
+            //Attack Range
+            if (distance < 0.5)
+            {
+                anim.SetBool("followTarget", false);
+                anim.SetBool("isAttacking", true);
+            }
+        }        
     }
 }
