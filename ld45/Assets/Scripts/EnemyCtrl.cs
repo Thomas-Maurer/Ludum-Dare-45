@@ -1,6 +1,4 @@
 ﻿using Pathfinding;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyCtrl : MonoBehaviour
@@ -13,11 +11,14 @@ public class EnemyCtrl : MonoBehaviour
 
     private AIDestinationSetter aggroTarget;
     private AIPath pathFindingConfig;
-    public Transform Target { get => target; set => target = value; }
+    private Vector2 direction;
+
+
 
     public AIDestinationSetter AggroTarget { get => aggroTarget; set => aggroTarget = value; }
     public AIPath PathFindingConfig { get => pathFindingConfig; set => pathFindingConfig = value; }
     public Enemy Enemy { get => enemy; set => enemy = value; }
+    public Vector2 Direction { get => direction; set => direction = value; }
 
     // Start is called before the first frame update
     void Start()
@@ -35,13 +36,19 @@ public class EnemyCtrl : MonoBehaviour
         range.generateAggroRange();
 
         aggroTarget = GetComponent<AIDestinationSetter>();
-        
+
 
     }
 
     // Update is called once per frame
     void Update()
     {
+        checkDirection();
+    }
 
+    void checkDirection()
+    {
+        var heading = (aggroTarget.target.transform.position - transform.position).normalized;
+        Debug.Log(heading.sqrMagnitude);
     }
 }

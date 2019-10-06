@@ -15,7 +15,7 @@ public class Range : MonoBehaviour
         enemy = parent.GetComponent<EnemyCtrl>();
 
         aggroRange = GetComponent<CircleCollider2D>();
-        aggroRange.radius = (float)(enemy.Enemy.Level * 0.5);
+        aggroRange.radius = (float)(enemy.Enemy.Level * 2);
         Debug.Log(aggroRange.radius);
 
     }

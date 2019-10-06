@@ -31,7 +31,7 @@ public class Enemy
     }
 
     //Generate Speed by level.
-    //Maths formula = level * 0.1
+    //Maths formula = level * 0.2
     protected virtual double generateSpeed()
     {
         this.speed = this.level * 0.02;
