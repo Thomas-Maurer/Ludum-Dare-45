@@ -63,6 +63,9 @@ public class EnemyCtrl : MonoBehaviour
                 anim.SetBool("followTarget", false);
                 anim.SetBool("isAttacking", true);
             }
+        }else
+        {
+            anim.SetBool("followTarget", false);
         }        
     }
 }
