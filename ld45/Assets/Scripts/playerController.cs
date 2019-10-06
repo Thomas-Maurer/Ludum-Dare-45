@@ -37,7 +37,6 @@ public class playerController : MonoBehaviour
     void FixedUpdate()
     {
         Vector2 heading;
-        Debug.Log(anim.GetBool("isMoving"));
         //movement
         if (Input.GetKey(KeyCode.Z))
         {
