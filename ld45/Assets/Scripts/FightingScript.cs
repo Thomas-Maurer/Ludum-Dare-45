@@ -10,12 +10,25 @@ public class FightingScript : MonoBehaviour
     public int dices;
     public bool canThrow = true;
     public int enemyResult;
-    public GameObject spawnPoint1;
-    public GameObject spawnPoint2;
-    public GameObject spawnPoint3;
-    public GameObject spawnPoint4;
-    public GameObject spawnPoint5;
-    public GameObject spawnPoint6;
+    public GameObject spawnPointPlayer1;
+    public GameObject spawnPointPlayer2;
+    public GameObject spawnPointPlayer3;
+    public GameObject spawnPointPlayer4;
+    public GameObject spawnPointPlayer5;
+    public GameObject spawnPointPlayer6;
+    public GameObject spawnPointPlayer7;
+    public GameObject spawnPointEnemy1;
+    public GameObject spawnPointEnemy2;
+    public GameObject spawnPointEnemy3;
+    public GameObject spawnPointEnemy4;
+    public GameObject spawnPointEnemy5;
+    public GameObject spawnPointEnemy6;
+    public List<GameObject> enemySpawnList =new List<GameObject>();
+
+    private void Start()
+    {
+        //enemySpawnList= { spawnPointEnemy1,spawnPointEnemy2,spawnPointEnemy3};
+    }
 
 
 
