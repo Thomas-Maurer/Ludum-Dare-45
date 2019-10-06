@@ -1,0 +1,599 @@
+fileFormatVersion: 2
+guid: 737807e6a82bb7d4b8ec43476f36d88e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7901924075353432375
+    second: rocher
+  - first:
+      213: -1142139120386331021
+    second: rocher1eau1
+  - first:
+      213: -1580232815980476867
+    second: rocher1eau2
+  - first:
+      213: -85149078646209435
+    second: rocher2
+  - first:
+      213: -4553768292611203274
+    second: rocher2eau1
+  - first:
+      213: 6156770895685258641
+    second: rocher2eau2
+  - first:
+      213: -3093410239623096950
+    second: rocher3
+  - first:
+      213: -1839740066524216252
+    second: rocher3eau1
+  - first:
+      213: 9063368851479755750
+    second: rocher3eau2
+  - first:
+      213: 945266632132962909
+    second: rocher4
+  - first:
+      213: -2413724125023670363
+    second: rocher4eau1
+  - first:
+      213: -8985588166463978689
+    second: rocher4eau2
+  - first:
+      213: 5796640521264325808
+    second: rocher5
+  - first:
+      213: 3106788197388661132
+    second: rocher5eau1
+  - first:
+      213: 6905180696817719935
+    second: rocher5eau2
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rocher
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1548
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: 225}
+        - {x: -79, y: 146}
+        - {x: -145, y: -137}
+        - {x: -145, y: -162}
+        - {x: -17, y: -224}
+        - {x: 40, y: -224}
+        - {x: 167, y: -200}
+        - {x: 167, y: 180}
+        - {x: 53, y: 225}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8866f0254dc1f445852a2b4ed2d0f81
+      internalID: -7901924075353432375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher1eau1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1548
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -34, y: 250}
+        - {x: -119, y: 172}
+        - {x: -244, y: -125}
+        - {x: -244, y: -183}
+        - {x: -134, y: -239}
+        - {x: 213, y: -239}
+        - {x: 213, y: 250}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1172131d89599cd4a98cf17bf6491e98
+      internalID: -1142139120386331021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher1eau2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1548
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 84, y: 250}
+        - {x: -32, y: 250}
+        - {x: -119, y: 172}
+        - {x: -222, y: -101}
+        - {x: -225, y: -117}
+        - {x: -225, y: -138}
+        - {x: -223, y: -151}
+        - {x: -210, y: -211}
+        - {x: -203, y: -228}
+        - {x: -156, y: -236}
+        - {x: 66, y: -236}
+        - {x: 131, y: -226}
+        - {x: 232, y: -145}
+        - {x: 242, y: -107}
+        - {x: 242, y: -23}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079dd69736d111a4fa28e0e55979b469
+      internalID: -1580232815980476867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher2
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1548
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -144, y: 225}
+        - {x: -144, y: -218}
+        - {x: -72, y: -224}
+        - {x: 58, y: -224}
+        - {x: 168, y: -191}
+        - {x: 168, y: -8}
+        - {x: 107, y: 225}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52869565689f8484dbdb08333675df72
+      internalID: -85149078646209435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher2eau1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1048
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -148, y: 247}
+        - {x: -223, y: 143}
+        - {x: -244, y: -80}
+        - {x: -244, y: -183}
+        - {x: -97, y: -239}
+        - {x: 61, y: -239}
+        - {x: 158, y: -223}
+        - {x: 213, y: -162}
+        - {x: 213, y: 48}
+        - {x: 47, y: 247}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044f989566d77fa4b997621a294ebfdf
+      internalID: -4553768292611203274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher2eau2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1048
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -27, y: 247}
+        - {x: -67, y: 247}
+        - {x: -68, y: 245}
+        - {x: -71, y: 247}
+        - {x: -188, y: 247}
+        - {x: -225, y: 142}
+        - {x: -225, y: -227}
+        - {x: 168, y: -227}
+        - {x: 242, y: -143}
+        - {x: 242, y: 11}
+        - {x: 77, y: 165}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0986b3b7b6a79c848a7c091b2cfb0810
+      internalID: 6156770895685258641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher3
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1048
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 63, y: 221}
+        - {x: 56, y: 217}
+        - {x: -93, y: 114}
+        - {x: -153, y: 15}
+        - {x: -173, y: -94}
+        - {x: -173, y: -165}
+        - {x: -43, y: -213}
+        - {x: -17, y: -213}
+        - {x: 92, y: -179}
+        - {x: 127, y: -59}
+        - {x: 127, y: 122}
+        - {x: 67, y: 221}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ad6451ecb91574b8970e69a3b4f9ec
+      internalID: -3093410239623096950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher3eau1
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1048
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 143, y: 242}
+        - {x: -7, y: 242}
+        - {x: -242, y: 34}
+        - {x: -242, y: -174}
+        - {x: -194, y: -230}
+        - {x: -83, y: -245}
+        - {x: 84, y: -245}
+        - {x: 233, y: -166}
+        - {x: 246, y: -110}
+        - {x: 246, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95c788981c938d4aa252d7f818da465
+      internalID: -1839740066524216252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher3eau2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 548
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 187, y: -39}
+        - {x: 75, y: 238}
+        - {x: 73, y: 242}
+        - {x: 69, y: 242}
+        - {x: 62, y: 238}
+        - {x: -102, y: 149}
+        - {x: -230, y: -38}
+        - {x: -230, y: -225}
+        - {x: 232, y: -225}
+        - {x: 232, y: -46}
+        - {x: 219, y: -21}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f15c54d7df1e2b40acb835e4158eb62
+      internalID: 9063368851479755750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher4
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 548
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -43, y: 213}
+        - {x: -106, y: 213}
+        - {x: -173, y: 53}
+        - {x: -173, y: -118}
+        - {x: -95, y: -206}
+        - {x: -87, y: -206}
+        - {x: 147, y: -160}
+        - {x: 155, y: -27}
+        - {x: 155, y: 42}
+        - {x: 64, y: 203}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6263d9a5191be54fbe8db156690289e
+      internalID: 945266632132962909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher4eau1
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 548
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 63, y: 221}
+        - {x: -49, y: 238}
+        - {x: -98, y: 238}
+        - {x: -242, y: -4}
+        - {x: -242, y: -200}
+        - {x: -225, y: -245}
+        - {x: 154, y: -245}
+        - {x: 246, y: -142}
+        - {x: 246, y: 55}
+        - {x: 69, y: 218}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831867178ba7dad43896161b332ee246
+      internalID: -2413724125023670363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher4eau2
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 548
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -120, y: 238}
+        - {x: -230, y: -8}
+        - {x: -230, y: -191}
+        - {x: -212, y: -225}
+        - {x: 207, y: -225}
+        - {x: 232, y: -182}
+        - {x: 232, y: 64}
+        - {x: 124, y: 238}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fe6d3ba2aca51429cb6b6fec025ec3
+      internalID: -8985588166463978689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -62, y: 116}
+        - {x: -173, y: 21}
+        - {x: -173, y: -110}
+        - {x: 23, y: -158}
+        - {x: 52, y: -158}
+        - {x: 167, y: -123}
+        - {x: 167, y: 29}
+        - {x: 44, y: 116}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398585a1bc87fc74aac6ee00b97a04be
+      internalID: 5796640521264325808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher5eau1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 48
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 112, y: 116}
+        - {x: -167, y: 116}
+        - {x: -242, y: -15}
+        - {x: -242, y: -159}
+        - {x: -194, y: -230}
+        - {x: -83, y: -245}
+        - {x: 87, y: -245}
+        - {x: 239, y: -171}
+        - {x: 246, y: -156}
+        - {x: 246, y: 57}
+      tessellationDetail: 0
+      bones: []
+      spriteID: debad535d2c6f9941adbde543c83342c
+      internalID: 3106788197388661132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocher5eau2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 48
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 56, y: 116}
+        - {x: -7, y: 116}
+        - {x: -59, y: 106}
+        - {x: -230, y: -60}
+        - {x: -230, y: -206}
+        - {x: -228, y: -216}
+        - {x: -172, y: -225}
+        - {x: 184, y: -225}
+        - {x: 232, y: -136}
+        - {x: 232, y: -23}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0feaacc98d9a0be4e953906c3324a6b0
+      internalID: 6905180696817719935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
