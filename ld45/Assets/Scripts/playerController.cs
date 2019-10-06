@@ -110,7 +110,7 @@ public class playerController : MonoBehaviour
 
 
     }
-    private void OnCollision2DEnter(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log(collision.gameObject.tag);
 
