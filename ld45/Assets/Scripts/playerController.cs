@@ -33,6 +33,8 @@ public class playerController : MonoBehaviour
         player = GetComponent<Rigidbody2D>();
         thisBoatLvl = BoatLvl.noBoat;
         anim = GetComponent<Animator>();
+        anim.SetBool("isLevel0", true);
+        coins = 500;
     }
     void FixedUpdate()
     {
@@ -144,12 +146,14 @@ public class playerController : MonoBehaviour
             SceneManager.LoadScene("fighting", mode: LoadSceneMode.Additive);
             GameObject.Find("Main Camera").GetComponent<AudioListener>().enabled = false;
         }
-        else if (collider.gameObject.tag == "island" && coins>=200)
+        else if (collider.gameObject.tag == "Port" && coins>=200)
         {
             coins -= 200;
             thisBoatLvl ++;
             hasEvolved = false;
-            
+            switchBoat((int)this.thisBoatLvl);
+
+
         }
         else if (collider.gameObject.tag == "reward")
         {
@@ -157,6 +161,17 @@ public class playerController : MonoBehaviour
             health += 5;
         }
         Debug.Log(collider.gameObject.tag);
+    }
+
+    private void switchBoat(int level)
+    {
+        for(int i = 0; i < level; i++)
+        {
+            anim.SetBool("isLevel" + i, false);
+        }
+        this.GetComponent<SpriteRenderer>().color = UnityEngine.Color.white;
+        anim.SetBool("isLevel" + level, true);
+        
     }
 
 }
