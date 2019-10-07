@@ -30,9 +30,6 @@ public class GameManager : MonoBehaviour
         foreach (Transform child in SpawnRewardsList)
         {
             GameObject enemyObject = Instantiate(rhum, new Vector2(child.position.x, child.position.y), Quaternion.identity);
-            EnemyCtrl ctrl = enemyObject.GetComponent<EnemyCtrl>();
-            Shark shark = new Shark();
-            ctrl.init(shark);
         }
 
 

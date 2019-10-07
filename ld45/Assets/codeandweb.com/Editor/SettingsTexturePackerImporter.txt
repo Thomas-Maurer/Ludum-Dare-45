@@ -4,6 +4,8 @@ tpsheetFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 - Assets/DecorationMap/rocher1.tpsheet
 - Assets/DecorationMap/rocher2.tpsheet
+- Assets/Ennemis/boat1.tpsheet
+- Assets/Ennemis/boat2.tpsheet
 - Assets/Ennemis/shark.tpsheet
 - Assets/map/map1.1.tpsheet
 - Assets/map/map1.tpsheet
@@ -20,6 +22,8 @@ textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 - Assets/DecorationMap/rocher1.png
 - Assets/DecorationMap/rocher2.png
+- Assets/Ennemis/boat1.png
+- Assets/Ennemis/boat2.png
 - Assets/Ennemis/shark.png
 - Assets/map/map1.1.png
 - Assets/map/map1.png
@@ -34,6 +38,8 @@ textureFileNames:
 - Assets/Perso/voilier.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
 - 
 - 
 - 

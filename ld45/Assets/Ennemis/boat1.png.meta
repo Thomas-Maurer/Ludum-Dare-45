@@ -1,0 +1,379 @@
+fileFormatVersion: 2
+guid: 1bee2d5f928648f438a1a45d1130ea36
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2085773931058533657
+    second: VoileneD1
+  - first:
+      213: 7123595896798822726
+    second: VoileneD2
+  - first:
+      213: 2205572019714139666
+    second: VoileneDD1
+  - first:
+      213: -1280805469896303938
+    second: VoileneDD2
+  - first:
+      213: 7521636489630150025
+    second: VoileneDG1
+  - first:
+      213: -1570914820042678040
+    second: VoileneDG2
+  - first:
+      213: -7750778966405900915
+    second: VoileneFace1
+  - first:
+      213: 7344539385397411046
+    second: VoileneFace2
+  - first:
+      213: 1180980376016599201
+    second: VoileneG1
+  - first:
+      213: -3552086901086751919
+    second: VoileneG2
+  - first:
+      213: -7743498250727208516
+    second: VoileneZ1
+  - first:
+      213: 6186835847573583349
+    second: VoileneZ2
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VoileneD1
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 320
+        width: 222
+        height: 233
+      alignment: 9
+      pivot: {x: 0.45945945, y: 0.45064378}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 2085773931058533657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoileneD2
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 87
+        width: 224
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5021645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 7123595896798822726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoileneDD1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 790
+        width: 224
+        height: 233
+      alignment: 9
+      pivot: {x: 0.4419643, y: 0.4635193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 2205572019714139666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoileneDD2
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 555
+        width: 224
+        height: 233
+      alignment: 9
+      pivot: {x: 0.4419643, y: 0.4635193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -1280805469896303938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoileneDG1
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 565
+        width: 216
+        height: 225
+      alignment: 9
+      pivot: {x: 0.5416667, y: 0.46222222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 7521636489630150025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoileneDG2
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 798
+        width: 216
+        height: 225
+      alignment: 9
+      pivot: {x: 0.5416667, y: 0.46222222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -1570914820042678040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoileneFace1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 37
+        width: 218
+        height: 239
+      alignment: 9
+      pivot: {x: 0.5504587, y: 0.48953974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -7750778966405900915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoileneFace2
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 40
+        width: 204
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5882353, y: 0.5169492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 7344539385397411046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoileneG1
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 792
+        width: 224
+        height: 231
+      alignment: 9
+      pivot: {x: 0.54910713, y: 0.45454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 1180980376016599201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoileneG2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 278
+        width: 222
+        height: 239
+      alignment: 9
+      pivot: {x: 0.5135135, y: 0.49372384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -3552086901086751919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoileneZ1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 772
+        width: 136
+        height: 251
+      alignment: 9
+      pivot: {x: 0.50735295, y: 0.49003986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -7743498250727208516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VoileneZ2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 519
+        width: 136
+        height: 251
+      alignment: 9
+      pivot: {x: 0.50735295, y: 0.49003986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 6186835847573583349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

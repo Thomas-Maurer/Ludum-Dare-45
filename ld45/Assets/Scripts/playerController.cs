@@ -151,9 +151,9 @@ public class playerController : MonoBehaviour
             hasEvolved = false;
             
         }
-        else if (collider.gameObject.tag == "bonus")
+        else if (collider.gameObject.tag == "reward")
         {
-
+            health += 5;
         }
         Debug.Log(collider.gameObject.tag);
     }

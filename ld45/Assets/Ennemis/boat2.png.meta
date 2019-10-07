@@ -1,0 +1,379 @@
+fileFormatVersion: 2
+guid: 4059ae79a540b064fb5a39f5fdc5894f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5484631591136374376
+    second: 2matseneA1
+  - first:
+      213: -5787510686313835579
+    second: 2matseneA2
+  - first:
+      213: 8209333374569248224
+    second: 2matseneD1
+  - first:
+      213: -3997938674531838517
+    second: 2matseneD2
+  - first:
+      213: 1430205228809450030
+    second: 2matseneDiagAD1
+  - first:
+      213: 7518503741532279664
+    second: 2matseneDiagAD2
+  - first:
+      213: 2029418435653485161
+    second: 2matseneDiagAG1
+  - first:
+      213: 4043139056506379591
+    second: 2matseneDiagAG2
+  - first:
+      213: -7718101564037763642
+    second: 2matseneG1
+  - first:
+      213: -8423034773120348020
+    second: 2matseneG2
+  - first:
+      213: 5138057146795469163
+    second: 2matseneS1
+  - first:
+      213: -6988820786255187483
+    second: 2matseneS2
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 2matseneA1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 769
+        width: 141
+        height: 254
+      alignment: 9
+      pivot: {x: 0.4893617, y: 0.496063}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -5484631591136374376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2matseneA2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 513
+        width: 141
+        height: 254
+      alignment: 9
+      pivot: {x: 0.4893617, y: 0.496063}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -5787510686313835579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2matseneD1
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 555
+        width: 223
+        height: 233
+      alignment: 9
+      pivot: {x: 0.46636772, y: 0.45064378}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 8209333374569248224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2matseneD2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 787
+        width: 221
+        height: 236
+      alignment: 9
+      pivot: {x: 0.51131225, y: 0.4915254}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -3997938674531838517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2matseneDiagAD1
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 790
+        width: 226
+        height: 233
+      alignment: 9
+      pivot: {x: 0.4380531, y: 0.4635193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 1430205228809450030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2matseneDiagAD2
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 315
+        width: 226
+        height: 233
+      alignment: 9
+      pivot: {x: 0.4380531, y: 0.4635193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 7518503741532279664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2matseneDiagAG1
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 326
+        width: 216
+        height: 227
+      alignment: 9
+      pivot: {x: 0.5416667, y: 0.4581498}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 2029418435653485161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2matseneDiagAG2
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 561
+        width: 216
+        height: 227
+      alignment: 9
+      pivot: {x: 0.5416667, y: 0.4581498}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 4043139056506379591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2matseneG1
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 80
+        width: 222
+        height: 233
+      alignment: 9
+      pivot: {x: 0.5540541, y: 0.45922747}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -7718101564037763642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2matseneG2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 550
+        width: 222
+        height: 235
+      alignment: 9
+      pivot: {x: 0.5045045, y: 0.49361703}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -8423034773120348020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2matseneS1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 30
+        width: 217
+        height: 238
+      alignment: 9
+      pivot: {x: 0.5529954, y: 0.49159664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 5138057146795469163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2matseneS2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 270
+        width: 204
+        height: 241
+      alignment: 9
+      pivot: {x: 0.5882353, y: 0.5062241}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: -6988820786255187483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
