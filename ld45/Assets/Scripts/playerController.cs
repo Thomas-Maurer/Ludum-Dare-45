@@ -153,6 +153,7 @@ public class playerController : MonoBehaviour
         }
         else if (collider.gameObject.tag == "reward")
         {
+            Destroy(collider.gameObject);
             health += 5;
         }
         Debug.Log(collider.gameObject.tag);
