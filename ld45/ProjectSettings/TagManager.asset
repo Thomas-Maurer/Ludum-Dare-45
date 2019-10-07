@@ -6,6 +6,7 @@ TagManager:
   tags:
   - island
   - enemy
+  - reward
   layers:
   - Default
   - TransparentFX

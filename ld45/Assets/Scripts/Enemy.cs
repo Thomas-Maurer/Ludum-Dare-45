@@ -19,7 +19,6 @@ public class Enemy
     public Enemy()
 	{
         this.level = this.generateLevel();
-        Debug.Log("level of Enemy is " + this.level);
         this.hp = this.generateHp();
         this.Speed = this.generateSpeed();
         this.CoinRewarded = this.generateCoinRewarded();
