@@ -134,28 +134,28 @@ public class playerController : MonoBehaviour
 
 
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collider)
     {
-        Debug.Log(collision.gameObject.tag);
 
-        if (collision.gameObject.tag == "enemy")
+        if (collider.gameObject.tag == "enemy")
         {
-            opponent = collision.gameObject;
+
+            opponent = collider.gameObject;
             SceneManager.LoadScene("fighting", mode: LoadSceneMode.Additive);
             GameObject.Find("Main Camera").GetComponent<AudioListener>().enabled = false;
         }
-        else if (collision.gameObject.tag == "island" /*&& coins>=200*/)
+        else if (collider.gameObject.tag == "island" && coins>=200)
         {
-            /*coins -= 200;
+            coins -= 200;
             thisBoatLvl ++;
-            hasEvolved = false;*/
+            hasEvolved = false;
             
         }
-        else if (collision.gameObject.tag == "bonus")
+        else if (collider.gameObject.tag == "bonus")
         {
 
         }
-        Debug.Log(collision.gameObject.tag);
+        Debug.Log(collider.gameObject.tag);
     }
 
 }
